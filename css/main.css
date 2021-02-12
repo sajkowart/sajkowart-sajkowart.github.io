@@ -20,20 +20,23 @@
 
 .isLogoSub{
 	font-family: fontQuote;
-	
+
 }
 
 .isLogoSub:hover{
-	color:orange;
+	/* color:orange; */
 }
 
-
-.commsMain{
-
-}
 
 .isNavbarLink{
 	color:orange;
+}
+
+.navbar-burgerMain{
+  color:white;
+}
+.navbar-item{
+  text-align: center;
 }
 
 
@@ -52,3 +55,16 @@
   opacity: 1;
 }
 
+.marginSpecial{
+  margin-top: 50px;
+}
+
+.tab{
+  background-color: rgba(25,25,25,0.4);
+  color: white;
+}
+
+.tab:hover{
+  color: orange;
+  background-color:  white;
+}

@@ -7,57 +7,26 @@
   src: url('quote.otf');
 }
 
-
-.isLogoIndex{
-	font-family: fontQuote;
-	color:white;
-}
-
-
-.isLogoIndex:hover{
-	color:orange;
-}
-
-.isLogoSub{
-	font-family: fontQuote;
+.title{
+  font-family: fontQuote;
 
 }
 
-.isLogoSub:hover{
-	color:orange;
+.navbar-item:hover{
+  color:orange;
 }
 
 
-.commsMain{
-
-}
-
-.isNavbarLink{
-	color:orange;
-}
-
-
-.hero.has-background {
-  position: relative;
-  overflow: hidden;
-}
-.hero-background {
-  position: absolute;
-  object-fit: cover;
-  object-position: center center;
-  width: 100%;
-  height: 100%;
-}
-.hero-background.is-transparent {
-  opacity: 1;
-}
 
 
 @media screen and (max-width: 800px) {
     .cardGal img{
-      max-height: 200px;
+      /* max-height: 200px; */
       /* scuffed */
+      
     }
+
+
 }
 
 @media screen and (min-width: 800px) {
@@ -69,12 +38,14 @@
       overflow: hidden;
       transform: skew(5deg);
     }
+
     .containerGal .cardGal {
       flex: 1;
       transition: all 1s ease-in-out;
       height: 75vmin;
       position: relative;
     }
+
     .containerGal .cardGal .card__headGal {
       color: black;
       background: rgba(255, 30, 173, 0.75);
@@ -90,12 +61,15 @@
       font-size: 1em;
       white-space: nowrap;
     }
+
     .containerGal .cardGal:hover {
       flex-grow: 10;
     }
+
     .containerGal .cardGal:hover img {
       filter: grayscale(0);
     }
+
     .containerGal .cardGal:hover .card__headGal {
       text-align: center;
       top: calc(100% - 2em);
@@ -104,6 +78,7 @@
       font-size: 2em;
       transform: rotate(0deg) skew(-5deg);
     }
+
     .containerGal .cardGal img {
       width: 100%;
       height: 100%;
@@ -111,6 +86,7 @@
       transition: all 1s ease-in-out;
       filter: grayscale(80%);
     }
+
     .containerGal .cardGal:not(:nth-child(5)) {
       margin-right: 1em;
     }
